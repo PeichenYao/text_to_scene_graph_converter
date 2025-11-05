@@ -1,4 +1,4 @@
-Text2SceneGraph Converter is a tool designed to automatically generate scene graphs from narrative text. By leveraging natural language processing techniques and dependency parsing, this project extracts objects, attributes, and relationships from short stories and converts them into structured scene graphs. These scene graphs are organized in a time-sequenced manner, making them useful for tasks such as multi-frame visualization, semantic search, and story understanding.
+Text2SceneGraph Converter is a tool designed to automatically generate scene graphs from narrative text. By using natural language processing techniques and dependency parsing, this project extracts objects, attributes, and relationships from short stories and converts them into structured scene graphs. These scene graphs are organized in a time-sequenced manner, making them useful for tasks such as multi-frame visualization, semantic search, and story understanding.
 
 ## Key Features
 
