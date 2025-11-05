@@ -1,0 +1,645 @@
+{
+  "dataset_SPICE_macro": 0.475,
+  "dataset_SPICE_micro": 0.4589,
+  "samples": [
+    {
+      "SPICE": 0.6691,
+      "objects": {"precision": 0.75, "recall": 1.0, "f1": 0.8571, "tp": 3, "pred": 4, "gold": 3},
+      "attributes": {"precision": 0.6, "recall": 0.8571, "f1": 0.7059, "tp": 6, "pred": 10, "gold": 7},
+      "relations": {"precision": 0.5, "recall": 0.4, "f1": 0.4444, "tp": 2, "pred": 4, "gold": 5}
+    },
+    {
+      "SPICE": 0.7746,
+      "objects": {"precision": 1.0, "recall": 0.75, "f1": 0.8571, "tp": 3, "pred": 3, "gold": 4},
+      "attributes": {"precision": 0.6667, "recall": 1.0, "f1": 0.8, "tp": 6, "pred": 9, "gold": 6},
+      "relations": {"precision": 1.0, "recall": 0.5, "f1": 0.6667, "tp": 2, "pred": 2, "gold": 4}
+    },
+    {
+      "SPICE": 0.5908,
+      "objects": {"precision": 0.8333, "recall": 1.0, "f1": 0.9091, "tp": 5, "pred": 6, "gold": 5},
+      "attributes": {"precision": 0.4167, "recall": 0.8333, "f1": 0.5556, "tp": 5, "pred": 12, "gold": 6},
+      "relations": {"precision": 0.3333, "recall": 0.2857, "f1": 0.3077, "tp": 2, "pred": 6, "gold": 7}
+    },
+    {
+      "SPICE": 0.7234,
+      "objects": {"precision": 0.8571, "recall": 1.0, "f1": 0.9231, "tp": 6, "pred": 7, "gold": 6},
+      "attributes": {"precision": 0.5, "recall": 0.8571, "f1": 0.6316, "tp": 6, "pred": 12, "gold": 7},
+      "relations": {"precision": 0.8, "recall": 0.5, "f1": 0.6154, "tp": 4, "pred": 5, "gold": 8}
+    },
+    {
+      "SPICE": 0.5232,
+      "objects": {"precision": 0.8333, "recall": 0.8333, "f1": 0.8333, "tp": 5, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.3333, "recall": 0.2857, "f1": 0.3077, "tp": 2, "pred": 6, "gold": 7},
+      "relations": {"precision": 0.4286, "recall": 0.4286, "f1": 0.4286, "tp": 3, "pred": 7, "gold": 7}
+    },
+    {
+      "SPICE": 0.6147,
+      "objects": {"precision": 0.6667, "recall": 0.8, "f1": 0.7273, "tp": 4, "pred": 6, "gold": 5},
+      "attributes": {"precision": 0.5455, "recall": 0.5455, "f1": 0.5455, "tp": 6, "pred": 11, "gold": 11},
+      "relations": {"precision": 0.6667, "recall": 0.5, "f1": 0.5714, "tp": 2, "pred": 3, "gold": 4}
+    },
+    {
+      "SPICE": 0.4563,
+      "objects": {"precision": 0.8333, "recall": 0.8333, "f1": 0.8333, "tp": 5, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.2222, "recall": 0.4, "f1": 0.2857, "tp": 2, "pred": 9, "gold": 5},
+      "relations": {"precision": 0.25, "recall": 0.25, "f1": 0.25, "tp": 1, "pred": 4, "gold": 4}
+    },
+    {
+      "SPICE": 0.7576,
+      "objects": {"precision": 1.0, "recall": 1.0, "f1": 1.0, "tp": 4, "pred": 4, "gold": 4},
+      "attributes": {"precision": 0.5714, "recall": 1.0, "f1": 0.7273, "tp": 4, "pred": 7, "gold": 4},
+      "relations": {"precision": 0.6, "recall": 0.5, "f1": 0.5455, "tp": 3, "pred": 5, "gold": 6}
+    },
+    {
+      "SPICE": 0.5259,
+      "objects": {"precision": 0.75, "recall": 0.8571, "f1": 0.8, "tp": 6, "pred": 8, "gold": 7},
+      "attributes": {"precision": 0.4444, "recall": 0.4444, "f1": 0.4444, "tp": 4, "pred": 9, "gold": 9},
+      "relations": {"precision": 0.2857, "recall": 0.4, "f1": 0.3333, "tp": 2, "pred": 7, "gold": 5}
+    },
+    {
+      "SPICE": 0.6316,
+      "objects": {"precision": 0.8333, "recall": 0.8333, "f1": 0.8333, "tp": 5, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.5, "recall": 0.75, "f1": 0.6, "tp": 6, "pred": 12, "gold": 8},
+      "relations": {"precision": 0.6, "recall": 0.375, "f1": 0.4615, "tp": 3, "pred": 5, "gold": 8}
+    },
+    {
+      "SPICE": 0.5128,
+      "objects": {"precision": 0.6667, "recall": 0.6667, "f1": 0.6667, "tp": 4, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.5833, "recall": 0.5, "f1": 0.5385, "tp": 7, "pred": 12, "gold": 14},
+      "relations": {"precision": 0.4, "recall": 0.2857, "f1": 0.3333, "tp": 2, "pred": 5, "gold": 7}
+    },
+    {
+      "SPICE": 0.4806,
+      "objects": {"precision": 0.75, "recall": 0.8571, "f1": 0.8, "tp": 6, "pred": 8, "gold": 7},
+      "attributes": {"precision": 0.4286, "recall": 0.3333, "f1": 0.375, "tp": 3, "pred": 7, "gold": 9},
+      "relations": {"precision": 0.25, "recall": 0.2857, "f1": 0.2667, "tp": 2, "pred": 8, "gold": 7}
+    },
+    {
+      "SPICE": 0.6481,
+      "objects": {"precision": 0.8333, "recall": 0.8333, "f1": 0.8333, "tp": 5, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.3333, "recall": 0.6667, "f1": 0.4444, "tp": 4, "pred": 12, "gold": 6},
+      "relations": {"precision": 0.6, "recall": 0.75, "f1": 0.6667, "tp": 3, "pred": 5, "gold": 4}
+    },
+    {
+      "SPICE": 0.6327,
+      "objects": {"precision": 0.8571, "recall": 1.0, "f1": 0.9231, "tp": 6, "pred": 7, "gold": 6},
+      "attributes": {"precision": 0.4286, "recall": 0.3333, "f1": 0.375, "tp": 3, "pred": 7, "gold": 9},
+      "relations": {"precision": 0.6, "recall": 0.6, "f1": 0.6, "tp": 3, "pred": 5, "gold": 5}
+    },
+    {
+      "SPICE": 0.6788,
+      "objects": {"precision": 0.7143, "recall": 1.0, "f1": 0.8333, "tp": 5, "pred": 7, "gold": 5},
+      "attributes": {"precision": 0.6667, "recall": 0.6, "f1": 0.6316, "tp": 6, "pred": 9, "gold": 10},
+      "relations": {"precision": 0.5, "recall": 0.6667, "f1": 0.5714, "tp": 4, "pred": 8, "gold": 6}
+    },
+    {
+      "SPICE": 0.7115,
+      "objects": {"precision": 0.8571, "recall": 1.0, "f1": 0.9231, "tp": 6, "pred": 7, "gold": 6},
+      "attributes": {"precision": 0.3333, "recall": 0.75, "f1": 0.4615, "tp": 3, "pred": 9, "gold": 4},
+      "relations": {"precision": 0.6667, "recall": 0.8571, "f1": 0.75, "tp": 6, "pred": 9, "gold": 7}
+    },
+    {
+      "SPICE": 0.3596,
+      "objects": {"precision": 0.6, "recall": 0.5, "f1": 0.5455, "tp": 3, "pred": 5, "gold": 6},
+      "attributes": {"precision": 0.2222, "recall": 0.3333, "f1": 0.2667, "tp": 2, "pred": 9, "gold": 6},
+      "relations": {"precision": 0.3333, "recall": 0.2222, "f1": 0.2667, "tp": 2, "pred": 6, "gold": 9}
+    },
+    {
+      "SPICE": 0.7157,
+      "objects": {"precision": 1.0, "recall": 0.8333, "f1": 0.9091, "tp": 5, "pred": 5, "gold": 6},
+      "attributes": {"precision": 0.625, "recall": 0.7143, "f1": 0.6667, "tp": 5, "pred": 8, "gold": 7},
+      "relations": {"precision": 0.6667, "recall": 0.5, "f1": 0.5714, "tp": 4, "pred": 6, "gold": 8}
+    },
+    {
+      "SPICE": 0.3526,
+      "objects": {"precision": 0.625, "recall": 0.625, "f1": 0.625, "tp": 5, "pred": 8, "gold": 8},
+      "attributes": {"precision": 0.1818, "recall": 0.2857, "f1": 0.2222, "tp": 2, "pred": 11, "gold": 7},
+      "relations": {"precision": 0.2222, "recall": 0.2, "f1": 0.2105, "tp": 2, "pred": 9, "gold": 10}
+    },
+    {
+      "SPICE": 0.741,
+      "objects": {"precision": 0.8571, "recall": 1.0, "f1": 0.9231, "tp": 6, "pred": 7, "gold": 6},
+      "attributes": {"precision": 0.3636, "recall": 0.8, "f1": 0.5, "tp": 4, "pred": 11, "gold": 5},
+      "relations": {"precision": 0.6667, "recall": 1.0, "f1": 0.8, "tp": 6, "pred": 9, "gold": 6}
+    },
+    {
+      "SPICE": 0.782,
+      "objects": {"precision": 1.0, "recall": 1.0, "f1": 1.0, "tp": 6, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.6, "recall": 0.6667, "f1": 0.6316, "tp": 6, "pred": 10, "gold": 9},
+      "relations": {"precision": 0.7143, "recall": 0.7143, "f1": 0.7143, "tp": 5, "pred": 7, "gold": 7}
+    },
+    {
+      "SPICE": 0.6323,
+      "objects": {"precision": 1.0, "recall": 1.0, "f1": 1.0, "tp": 5, "pred": 5, "gold": 5},
+      "attributes": {"precision": 0.2857, "recall": 0.5, "f1": 0.3636, "tp": 2, "pred": 7, "gold": 4},
+      "relations": {"precision": 0.5714, "recall": 0.5, "f1": 0.5333, "tp": 4, "pred": 7, "gold": 8}
+    },
+    {
+      "SPICE": 0.5353,
+      "objects": {"precision": 0.8333, "recall": 1.0, "f1": 0.9091, "tp": 5, "pred": 6, "gold": 5},
+      "attributes": {"precision": 0.5, "recall": 0.2857, "f1": 0.3636, "tp": 2, "pred": 4, "gold": 7},
+      "relations": {"precision": 0.2857, "recall": 0.4, "f1": 0.3333, "tp": 2, "pred": 7, "gold": 5}
+    },
+    {
+      "SPICE": 0.6739,
+      "objects": {"precision": 0.7778, "recall": 1.0, "f1": 0.875, "tp": 7, "pred": 9, "gold": 7},
+      "attributes": {"precision": 0.4, "recall": 0.6, "f1": 0.48, "tp": 6, "pred": 15, "gold": 10},
+      "relations": {"precision": 0.6, "recall": 0.75, "f1": 0.6667, "tp": 6, "pred": 10, "gold": 8}
+    },
+    {
+      "SPICE": 0.5385,
+      "objects": {"precision": 0.5714, "recall": 0.6667, "f1": 0.6154, "tp": 4, "pred": 7, "gold": 6},
+      "attributes": {"precision": 0.4286, "recall": 0.4286, "f1": 0.4286, "tp": 6, "pred": 14, "gold": 14},
+      "relations": {"precision": 0.5714, "recall": 0.5714, "f1": 0.5714, "tp": 4, "pred": 7, "gold": 7}
+    },
+    {
+      "SPICE": 0.5578,
+      "objects": {"precision": 0.7778, "recall": 0.7, "f1": 0.7368, "tp": 7, "pred": 9, "gold": 10},
+      "attributes": {"precision": 0.4167, "recall": 0.8333, "f1": 0.5556, "tp": 5, "pred": 12, "gold": 6},
+      "relations": {"precision": 0.4, "recall": 0.3636, "f1": 0.381, "tp": 4, "pred": 10, "gold": 11}
+    },
+    {
+      "SPICE": 0.5469,
+      "objects": {"precision": 0.6667, "recall": 0.6667, "f1": 0.6667, "tp": 4, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.5, "recall": 0.6, "f1": 0.5455, "tp": 6, "pred": 12, "gold": 10},
+      "relations": {"precision": 0.4286, "recall": 0.4286, "f1": 0.4286, "tp": 3, "pred": 7, "gold": 7}
+    },
+    {
+      "SPICE": 0.5682,
+      "objects": {"precision": 0.75, "recall": 0.8571, "f1": 0.8, "tp": 6, "pred": 8, "gold": 7},
+      "attributes": {"precision": 0.5, "recall": 0.6667, "f1": 0.5714, "tp": 8, "pred": 16, "gold": 12},
+      "relations": {"precision": 0.375, "recall": 0.3, "f1": 0.3333, "tp": 3, "pred": 8, "gold": 10}
+    },
+    {
+      "SPICE": 0.7122,
+      "objects": {"precision": 0.6667, "recall": 0.8571, "f1": 0.75, "tp": 6, "pred": 9, "gold": 7},
+      "attributes": {"precision": 0.6429, "recall": 0.8182, "f1": 0.72, "tp": 9, "pred": 14, "gold": 11},
+      "relations": {"precision": 0.625, "recall": 0.7143, "f1": 0.6667, "tp": 5, "pred": 8, "gold": 7}
+    },
+    {
+      "SPICE": 0.665,
+      "objects": {"precision": 0.8889, "recall": 1.0, "f1": 0.9412, "tp": 8, "pred": 9, "gold": 8},
+      "attributes": {"precision": 0.4, "recall": 0.5714, "f1": 0.4706, "tp": 4, "pred": 10, "gold": 7},
+      "relations": {"precision": 0.5, "recall": 0.7, "f1": 0.5833, "tp": 7, "pred": 14, "gold": 10}
+    },
+    {
+      "SPICE": 0.4704,
+      "objects": {"precision": 0.6, "recall": 0.75, "f1": 0.6667, "tp": 6, "pred": 10, "gold": 8},
+      "attributes": {"precision": 0.3158, "recall": 0.75, "f1": 0.4444, "tp": 6, "pred": 19, "gold": 8},
+      "relations": {"precision": 0.3333, "recall": 0.2727, "f1": 0.3, "tp": 3, "pred": 9, "gold": 11}
+    },
+    {
+      "SPICE": 0.5844,
+      "objects": {"precision": 0.7273, "recall": 1.0, "f1": 0.8421, "tp": 8, "pred": 11, "gold": 8},
+      "attributes": {"precision": 0.4118, "recall": 0.5385, "f1": 0.4667, "tp": 7, "pred": 17, "gold": 13},
+      "relations": {"precision": 0.3636, "recall": 0.5714, "f1": 0.4444, "tp": 4, "pred": 11, "gold": 7}
+    },
+    {
+      "SPICE": 0.496,
+      "objects": {"precision": 0.7143, "recall": 0.625, "f1": 0.6667, "tp": 5, "pred": 7, "gold": 8},
+      "attributes": {"precision": 0.6, "recall": 0.5455, "f1": 0.5714, "tp": 6, "pred": 10, "gold": 11},
+      "relations": {"precision": 0.3333, "recall": 0.2, "f1": 0.25, "tp": 2, "pred": 6, "gold": 10}
+    },
+    {
+      "SPICE": 0.5611,
+      "objects": {"precision": 0.8571, "recall": 0.6667, "f1": 0.75, "tp": 6, "pred": 7, "gold": 9},
+      "attributes": {"precision": 0.3636, "recall": 0.4444, "f1": 0.4, "tp": 4, "pred": 11, "gold": 9},
+      "relations": {"precision": 0.6667, "recall": 0.4444, "f1": 0.5333, "tp": 4, "pred": 6, "gold": 9}
+    },
+    {
+      "SPICE": 0.5231,
+      "objects": {"precision": 0.8333, "recall": 0.7143, "f1": 0.7692, "tp": 5, "pred": 6, "gold": 7},
+      "attributes": {"precision": 0.2308, "recall": 0.4286, "f1": 0.3, "tp": 3, "pred": 13, "gold": 7},
+      "relations": {"precision": 0.6667, "recall": 0.4, "f1": 0.5, "tp": 4, "pred": 6, "gold": 10}
+    },
+    {
+      "SPICE": 0.7773,
+      "objects": {"precision": 0.8571, "recall": 1.0, "f1": 0.9231, "tp": 6, "pred": 7, "gold": 6},
+      "attributes": {"precision": 0.5385, "recall": 0.7, "f1": 0.6087, "tp": 7, "pred": 13, "gold": 10},
+      "relations": {"precision": 0.6667, "recall": 1.0, "f1": 0.8, "tp": 6, "pred": 9, "gold": 6}
+    },
+    {
+      "SPICE": 0.5165,
+      "objects": {"precision": 0.6364, "recall": 0.7778, "f1": 0.7, "tp": 7, "pred": 11, "gold": 9},
+      "attributes": {"precision": 0.4444, "recall": 0.6154, "f1": 0.5161, "tp": 8, "pred": 18, "gold": 13},
+      "relations": {"precision": 0.2857, "recall": 0.4, "f1": 0.3333, "tp": 4, "pred": 14, "gold": 10}
+    },
+    {
+      "SPICE": 0.3754,
+      "objects": {"precision": 0.4545, "recall": 0.625, "f1": 0.5263, "tp": 5, "pred": 11, "gold": 8},
+      "attributes": {"precision": 0.5, "recall": 0.5, "f1": 0.5, "tp": 7, "pred": 14, "gold": 14},
+      "relations": {"precision": 0.1, "recall": 0.1, "f1": 0.1, "tp": 1, "pred": 10, "gold": 10}
+    },
+    {
+      "SPICE": 0.4796,
+      "objects": {"precision": 0.625, "recall": 0.5, "f1": 0.5556, "tp": 5, "pred": 8, "gold": 10},
+      "attributes": {"precision": 0.4545, "recall": 0.4545, "f1": 0.4545, "tp": 5, "pred": 11, "gold": 11},
+      "relations": {"precision": 0.6, "recall": 0.3333, "f1": 0.4286, "tp": 3, "pred": 5, "gold": 9}
+    },
+    {
+      "SPICE": 0.6734,
+      "objects": {"precision": 0.875, "recall": 1.0, "f1": 0.9333, "tp": 7, "pred": 8, "gold": 7},
+      "attributes": {"precision": 0.3077, "recall": 0.5, "f1": 0.381, "tp": 4, "pred": 13, "gold": 8},
+      "relations": {"precision": 0.6, "recall": 0.8571, "f1": 0.7059, "tp": 6, "pred": 10, "gold": 7}
+    },
+    {
+      "SPICE": 0.6494,
+      "objects": {"precision": 1.0, "recall": 0.8889, "f1": 0.9412, "tp": 8, "pred": 8, "gold": 9},
+      "attributes": {"precision": 0.5, "recall": 0.6429, "f1": 0.5625, "tp": 9, "pred": 18, "gold": 14},
+      "relations": {"precision": 0.6667, "recall": 0.3333, "f1": 0.4444, "tp": 4, "pred": 6, "gold": 12}
+    },
+    {
+      "SPICE": 0.7028,
+      "objects": {"precision": 0.75, "recall": 1.0, "f1": 0.8571, "tp": 6, "pred": 8, "gold": 6},
+      "attributes": {"precision": 0.5, "recall": 0.6, "f1": 0.5455, "tp": 6, "pred": 12, "gold": 10},
+      "relations": {"precision": 0.6667, "recall": 0.75, "f1": 0.7059, "tp": 6, "pred": 9, "gold": 8}
+    },
+    {
+      "SPICE": 0.6538,
+      "objects": {"precision": 0.8333, "recall": 0.8333, "f1": 0.8333, "tp": 5, "pred": 6, "gold": 6},
+      "attributes": {"precision": 0.7, "recall": 0.6364, "f1": 0.6667, "tp": 7, "pred": 10, "gold": 11},
+      "relations": {"precision": 0.5, "recall": 0.4286, "f1": 0.4615, "tp": 3, "pred": 6, "gold": 7}
+    },
+    {
+      "SPICE": 0.368,
+      "objects": {"precision": 0.5, "recall": 0.8, "f1": 0.6154, "tp": 4, "pred": 8, "gold": 5},
+      "attributes": {"precision": 0.2857, "recall": 0.5, "f1": 0.3636, "tp": 4, "pred": 14, "gold": 8},
+      "relations": {"precision": 0.1429, "recall": 0.1111, "f1": 0.125, "tp": 1, "pred": 7, "gold": 9}
+    },
+    {
+      "SPICE": 0.1817,
+      "objects": {"precision": 0.4167, "recall": 0.5556, "f1": 0.4762, "tp": 5, "pred": 12, "gold": 9},
+      "attributes": {"precision": 0.0714, "recall": 0.0667, "f1": 0.069, "tp": 1, "pred": 14, "gold": 15},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 13, "gold": 11}
+    },
+    {
+      "SPICE": 0.3651,
+      "objects": {"precision": 0.625, "recall": 0.7143, "f1": 0.6667, "tp": 5, "pred": 8, "gold": 7},
+      "attributes": {"precision": 0.375, "recall": 0.5, "f1": 0.4286, "tp": 6, "pred": 16, "gold": 12},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 6, "gold": 10}
+    },
+    {
+      "SPICE": 0.4014,
+      "objects": {"precision": 0.6667, "recall": 0.75, "f1": 0.7059, "tp": 6, "pred": 9, "gold": 8},
+      "attributes": {"precision": 0.3077, "recall": 0.3077, "f1": 0.3077, "tp": 4, "pred": 13, "gold": 13},
+      "relations": {"precision": 0.25, "recall": 0.1538, "f1": 0.1905, "tp": 2, "pred": 8, "gold": 13}
+    },
+    {
+      "SPICE": 0.4465,
+      "objects": {"precision": 0.5, "recall": 0.7143, "f1": 0.5882, "tp": 5, "pred": 10, "gold": 7},
+      "attributes": {"precision": 0.4706, "recall": 0.5714, "f1": 0.5161, "tp": 8, "pred": 17, "gold": 14},
+      "relations": {"precision": 0.2857, "recall": 0.2, "f1": 0.2353, "tp": 2, "pred": 7, "gold": 10}
+    },
+    {
+      "SPICE": 0.4727,
+      "objects": {"precision": 0.75, "recall": 0.9, "f1": 0.8182, "tp": 9, "pred": 12, "gold": 10},
+      "attributes": {"precision": 0.4375, "recall": 0.5, "f1": 0.4667, "tp": 7, "pred": 16, "gold": 14},
+      "relations": {"precision": 0.1429, "recall": 0.125, "f1": 0.1333, "tp": 1, "pred": 7, "gold": 8}
+    },
+    {
+      "SPICE": 0.2547,
+      "objects": {"precision": 0.5, "recall": 0.5455, "f1": 0.5217, "tp": 6, "pred": 12, "gold": 11},
+      "attributes": {"precision": 0.1905, "recall": 0.3333, "f1": 0.2424, "tp": 4, "pred": 21, "gold": 12},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 9, "gold": 17}
+    },
+    {
+      "SPICE": 0.5064,
+      "objects": {"precision": 0.8, "recall": 0.8889, "f1": 0.8421, "tp": 8, "pred": 10, "gold": 9},
+      "attributes": {"precision": 0.4375, "recall": 0.5, "f1": 0.4667, "tp": 7, "pred": 16, "gold": 14},
+      "relations": {"precision": 0.25, "recall": 0.1818, "f1": 0.2105, "tp": 2, "pred": 8, "gold": 11}
+    },
+    {
+      "SPICE": 0.4464,
+      "objects": {"precision": 0.6, "recall": 0.8571, "f1": 0.7059, "tp": 6, "pred": 10, "gold": 7},
+      "attributes": {"precision": 0.5714, "recall": 0.5, "f1": 0.5333, "tp": 8, "pred": 14, "gold": 16},
+      "relations": {"precision": 0.125, "recall": 0.0833, "f1": 0.1, "tp": 1, "pred": 8, "gold": 12}
+    },
+    {
+      "SPICE": 0.2143,
+      "objects": {"precision": 0.2727, "recall": 0.4286, "f1": 0.3333, "tp": 3, "pred": 11, "gold": 7},
+      "attributes": {"precision": 0.125, "recall": 0.1667, "f1": 0.1429, "tp": 2, "pred": 16, "gold": 12},
+      "relations": {"precision": 0.1667, "recall": 0.1667, "f1": 0.1667, "tp": 2, "pred": 12, "gold": 12}
+    },
+    {
+      "SPICE": 0.6248,
+      "objects": {"precision": 0.8889, "recall": 1.0, "f1": 0.9412, "tp": 8, "pred": 9, "gold": 8},
+      "attributes": {"precision": 0.381, "recall": 0.5714, "f1": 0.4571, "tp": 8, "pred": 21, "gold": 14},
+      "relations": {"precision": 0.625, "recall": 0.3846, "f1": 0.4762, "tp": 5, "pred": 8, "gold": 13}
+    },
+    {
+      "SPICE": 0.0873,
+      "objects": {"precision": 0.1667, "recall": 0.2222, "f1": 0.1905, "tp": 2, "pred": 12, "gold": 9},
+      "attributes": {"precision": 0.0769, "recall": 0.0667, "f1": 0.0714, "tp": 1, "pred": 13, "gold": 15},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 9, "gold": 9}
+    },
+    {
+      "SPICE": 0.4762,
+      "objects": {"precision": 0.6667, "recall": 1.0, "f1": 0.8, "tp": 6, "pred": 9, "gold": 6},
+      "attributes": {"precision": 0.5789, "recall": 0.6875, "f1": 0.6286, "tp": 11, "pred": 19, "gold": 16},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 4, "gold": 9}
+    },
+    {
+      "SPICE": 0.3849,
+      "objects": {"precision": 0.5625, "recall": 0.9, "f1": 0.6923, "tp": 9, "pred": 16, "gold": 10},
+      "attributes": {"precision": 0.3, "recall": 0.375, "f1": 0.3333, "tp": 6, "pred": 20, "gold": 16},
+      "relations": {"precision": 0.1333, "recall": 0.125, "f1": 0.129, "tp": 2, "pred": 15, "gold": 16}
+    },
+    {
+      "SPICE": 0.4593,
+      "objects": {"precision": 0.7273, "recall": 0.8889, "f1": 0.8, "tp": 8, "pred": 11, "gold": 9},
+      "attributes": {"precision": 0.2083, "recall": 0.4167, "f1": 0.2778, "tp": 5, "pred": 24, "gold": 12},
+      "relations": {"precision": 0.3333, "recall": 0.2727, "f1": 0.3, "tp": 3, "pred": 9, "gold": 11}
+    },
+    {
+      "SPICE": 0.4206,
+      "objects": {"precision": 0.6, "recall": 0.6923, "f1": 0.6429, "tp": 9, "pred": 15, "gold": 13},
+      "attributes": {"precision": 0.25, "recall": 0.5, "f1": 0.3333, "tp": 6, "pred": 24, "gold": 12},
+      "relations": {"precision": 0.2941, "recall": 0.2778, "f1": 0.2857, "tp": 5, "pred": 17, "gold": 18}
+    },
+    {
+      "SPICE": 0.485,
+      "objects": {"precision": 0.7273, "recall": 0.8889, "f1": 0.8, "tp": 8, "pred": 11, "gold": 9},
+      "attributes": {"precision": 0.4, "recall": 0.5, "f1": 0.4444, "tp": 8, "pred": 20, "gold": 16},
+      "relations": {"precision": 0.2222, "recall": 0.2, "f1": 0.2105, "tp": 2, "pred": 9, "gold": 10}
+    },
+    {
+      "SPICE": 0.4005,
+      "objects": {"precision": 0.6429, "recall": 0.9, "f1": 0.75, "tp": 9, "pred": 14, "gold": 10},
+      "attributes": {"precision": 0.4375, "recall": 0.4667, "f1": 0.4516, "tp": 7, "pred": 16, "gold": 15},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 15, "gold": 19}
+    },
+    {
+      "SPICE": 0.1796,
+      "objects": {"precision": 0.3636, "recall": 0.5, "f1": 0.4211, "tp": 4, "pred": 11, "gold": 8},
+      "attributes": {"precision": 0.1667, "recall": 0.0909, "f1": 0.1176, "tp": 2, "pred": 12, "gold": 22},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 8, "gold": 18}
+    },
+    {
+      "SPICE": 0.4159,
+      "objects": {"precision": 0.7, "recall": 0.7778, "f1": 0.7368, "tp": 7, "pred": 10, "gold": 9},
+      "attributes": {"precision": 0.2941, "recall": 0.4545, "f1": 0.3571, "tp": 5, "pred": 17, "gold": 11},
+      "relations": {"precision": 0.1818, "recall": 0.1333, "f1": 0.1538, "tp": 2, "pred": 11, "gold": 15}
+    },
+    {
+      "SPICE": 0.5035,
+      "objects": {"precision": 0.7273, "recall": 0.8889, "f1": 0.8, "tp": 8, "pred": 11, "gold": 9},
+      "attributes": {"precision": 0.5217, "recall": 0.6667, "f1": 0.5854, "tp": 12, "pred": 23, "gold": 18},
+      "relations": {"precision": 0.1667, "recall": 0.1, "f1": 0.125, "tp": 1, "pred": 6, "gold": 10}
+    },
+    {
+      "SPICE": 0.357,
+      "objects": {"precision": 0.3, "recall": 0.5, "f1": 0.375, "tp": 3, "pred": 10, "gold": 6},
+      "attributes": {"precision": 0.4091, "recall": 0.5625, "f1": 0.4737, "tp": 9, "pred": 22, "gold": 16},
+      "relations": {"precision": 0.2857, "recall": 0.1818, "f1": 0.2222, "tp": 2, "pred": 7, "gold": 11}
+    },
+    {
+      "SPICE": 0.3005,
+      "objects": {"precision": 0.4286, "recall": 0.8571, "f1": 0.5714, "tp": 6, "pred": 14, "gold": 7},
+      "attributes": {"precision": 0.2667, "recall": 0.2353, "f1": 0.25, "tp": 4, "pred": 15, "gold": 17},
+      "relations": {"precision": 0.1111, "recall": 0.0625, "f1": 0.08, "tp": 1, "pred": 9, "gold": 16}
+    },
+    {
+      "SPICE": 0.348,
+      "objects": {"precision": 0.5385, "recall": 0.7778, "f1": 0.6364, "tp": 7, "pred": 13, "gold": 9},
+      "attributes": {"precision": 0.2609, "recall": 0.375, "f1": 0.3077, "tp": 6, "pred": 23, "gold": 16},
+      "relations": {"precision": 0.1, "recall": 0.1, "f1": 0.1, "tp": 1, "pred": 10, "gold": 10}
+    },
+    {
+      "SPICE": 0.3535,
+      "objects": {"precision": 0.4615, "recall": 0.6667, "f1": 0.5455, "tp": 6, "pred": 13, "gold": 9},
+      "attributes": {"precision": 0.35, "recall": 0.3182, "f1": 0.3333, "tp": 7, "pred": 20, "gold": 22},
+      "relations": {"precision": 0.2222, "recall": 0.1538, "f1": 0.1818, "tp": 2, "pred": 9, "gold": 13}
+    },
+    {
+      "SPICE": 0.4933,
+      "objects": {"precision": 0.7273, "recall": 0.8, "f1": 0.7619, "tp": 8, "pred": 11, "gold": 10},
+      "attributes": {"precision": 0.2941, "recall": 0.5556, "f1": 0.3846, "tp": 5, "pred": 17, "gold": 9},
+      "relations": {"precision": 0.375, "recall": 0.3, "f1": 0.3333, "tp": 3, "pred": 8, "gold": 10}
+    },
+    {
+      "SPICE": 0.59,
+      "objects": {"precision": 0.8, "recall": 0.8889, "f1": 0.8421, "tp": 8, "pred": 10, "gold": 9},
+      "attributes": {"precision": 0.5789, "recall": 0.6111, "f1": 0.5946, "tp": 11, "pred": 19, "gold": 18},
+      "relations": {"precision": 0.375, "recall": 0.3, "f1": 0.3333, "tp": 3, "pred": 8, "gold": 10}
+    },
+    {
+      "SPICE": 0.4585,
+      "objects": {"precision": 0.6364, "recall": 0.7, "f1": 0.6667, "tp": 7, "pred": 11, "gold": 10},
+      "attributes": {"precision": 0.3889, "recall": 0.3889, "f1": 0.3889, "tp": 7, "pred": 18, "gold": 18},
+      "relations": {"precision": 0.3636, "recall": 0.2857, "f1": 0.32, "tp": 4, "pred": 11, "gold": 14}
+    },
+    {
+      "SPICE": 0.3143,
+      "objects": {"precision": 0.5, "recall": 0.6154, "f1": 0.5517, "tp": 8, "pred": 16, "gold": 13},
+      "attributes": {"precision": 0.2692, "recall": 0.2917, "f1": 0.28, "tp": 7, "pred": 26, "gold": 24},
+      "relations": {"precision": 0.1429, "recall": 0.0909, "f1": 0.1111, "tp": 2, "pred": 14, "gold": 22}
+    },
+    {
+      "SPICE": 0.5816,
+      "objects": {"precision": 0.8, "recall": 0.8889, "f1": 0.8421, "tp": 8, "pred": 10, "gold": 9},
+      "attributes": {"precision": 0.5, "recall": 0.6, "f1": 0.5455, "tp": 6, "pred": 12, "gold": 10},
+      "relations": {"precision": 0.4167, "recall": 0.3125, "f1": 0.3571, "tp": 5, "pred": 12, "gold": 16}
+    },
+    {
+      "SPICE": 0.6301,
+      "objects": {"precision": 0.7, "recall": 1.0, "f1": 0.8235, "tp": 7, "pred": 10, "gold": 7},
+      "attributes": {"precision": 0.6316, "recall": 0.75, "f1": 0.6857, "tp": 12, "pred": 19, "gold": 16},
+      "relations": {"precision": 0.3636, "recall": 0.4, "f1": 0.381, "tp": 4, "pred": 11, "gold": 10}
+    },
+    {
+      "SPICE": 0.4593,
+      "objects": {"precision": 0.7778, "recall": 0.7778, "f1": 0.7778, "tp": 7, "pred": 9, "gold": 9},
+      "attributes": {"precision": 0.3889, "recall": 0.5833, "f1": 0.4667, "tp": 7, "pred": 18, "gold": 12},
+      "relations": {"precision": 0.2, "recall": 0.1, "f1": 0.1333, "tp": 1, "pred": 5, "gold": 10}
+    },
+    {
+      "SPICE": 0.2465,
+      "objects": {"precision": 0.4, "recall": 0.5, "f1": 0.4444, "tp": 4, "pred": 10, "gold": 8},
+      "attributes": {"precision": 0.1667, "recall": 0.25, "f1": 0.2, "tp": 3, "pred": 18, "gold": 12},
+      "relations": {"precision": 0.1111, "recall": 0.0833, "f1": 0.0952, "tp": 1, "pred": 9, "gold": 12}
+    },
+    {
+      "SPICE": 0.3648,
+      "objects": {"precision": 0.5, "recall": 0.6, "f1": 0.5455, "tp": 6, "pred": 12, "gold": 10},
+      "attributes": {"precision": 0.3333, "recall": 0.4286, "f1": 0.375, "tp": 6, "pred": 18, "gold": 14},
+      "relations": {"precision": 0.2, "recall": 0.1538, "f1": 0.1739, "tp": 2, "pred": 10, "gold": 13}
+    },
+    {
+      "SPICE": 0.4571,
+      "objects": {"precision": 0.625, "recall": 0.7143, "f1": 0.6667, "tp": 5, "pred": 8, "gold": 7},
+      "attributes": {"precision": 0.3684, "recall": 0.4118, "f1": 0.3889, "tp": 7, "pred": 19, "gold": 17},
+      "relations": {"precision": 0.3333, "recall": 0.3, "f1": 0.3158, "tp": 3, "pred": 9, "gold": 10}
+    },
+    {
+      "SPICE": 0.3075,
+      "objects": {"precision": 0.5714, "recall": 0.5714, "f1": 0.5714, "tp": 8, "pred": 14, "gold": 14},
+      "attributes": {"precision": 0.1875, "recall": 0.2727, "f1": 0.2222, "tp": 3, "pred": 16, "gold": 11},
+      "relations": {"precision": 0.1818, "recall": 0.1, "f1": 0.129, "tp": 2, "pred": 11, "gold": 20}
+    },
+    {
+      "SPICE": 0.2626,
+      "objects": {"precision": 0.3333, "recall": 0.4, "f1": 0.3636, "tp": 4, "pred": 12, "gold": 10},
+      "attributes": {"precision": 0.3889, "recall": 0.4667, "f1": 0.4242, "tp": 7, "pred": 18, "gold": 15},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 10, "gold": 8}
+    },
+    {
+      "SPICE": 0.3302,
+      "objects": {"precision": 0.4615, "recall": 0.75, "f1": 0.5714, "tp": 6, "pred": 13, "gold": 8},
+      "attributes": {"precision": 0.2667, "recall": 0.5, "f1": 0.3478, "tp": 4, "pred": 15, "gold": 8},
+      "relations": {"precision": 0.0667, "recall": 0.0769, "f1": 0.0714, "tp": 1, "pred": 15, "gold": 13}
+    },
+    {
+      "SPICE": 0.4705,
+      "objects": {"precision": 0.8182, "recall": 0.9, "f1": 0.8571, "tp": 9, "pred": 11, "gold": 10},
+      "attributes": {"precision": 0.2, "recall": 0.3636, "f1": 0.2581, "tp": 4, "pred": 20, "gold": 11},
+      "relations": {"precision": 0.3333, "recall": 0.2667, "f1": 0.2963, "tp": 4, "pred": 12, "gold": 15}
+    },
+    {
+      "SPICE": 0.4305,
+      "objects": {"precision": 0.7333, "recall": 0.8462, "f1": 0.7857, "tp": 11, "pred": 15, "gold": 13},
+      "attributes": {"precision": 0.3333, "recall": 0.3043, "f1": 0.3182, "tp": 7, "pred": 21, "gold": 23},
+      "relations": {"precision": 0.2308, "recall": 0.1579, "f1": 0.1875, "tp": 3, "pred": 13, "gold": 19}
+    },
+    {
+      "SPICE": 0.4045,
+      "objects": {"precision": 0.7, "recall": 0.7, "f1": 0.7, "tp": 7, "pred": 10, "gold": 10},
+      "attributes": {"precision": 0.2273, "recall": 0.4545, "f1": 0.303, "tp": 5, "pred": 22, "gold": 11},
+      "relations": {"precision": 0.25, "recall": 0.1818, "f1": 0.2105, "tp": 2, "pred": 8, "gold": 11}
+    },
+    {
+      "SPICE": 0.5212,
+      "objects": {"precision": 0.7273, "recall": 1.0, "f1": 0.8421, "tp": 8, "pred": 11, "gold": 8},
+      "attributes": {"precision": 0.3333, "recall": 0.5455, "f1": 0.4138, "tp": 6, "pred": 18, "gold": 11},
+      "relations": {"precision": 0.4444, "recall": 0.2353, "f1": 0.3077, "tp": 4, "pred": 9, "gold": 17}
+    },
+    {
+      "SPICE": 0.4523,
+      "objects": {"precision": 0.5833, "recall": 0.7778, "f1": 0.6667, "tp": 7, "pred": 12, "gold": 9},
+      "attributes": {"precision": 0.375, "recall": 0.4, "f1": 0.3871, "tp": 6, "pred": 16, "gold": 15},
+      "relations": {"precision": 0.3125, "recall": 0.2941, "f1": 0.303, "tp": 5, "pred": 16, "gold": 17}
+    },
+    {
+      "SPICE": 0.3473,
+      "objects": {"precision": 0.6364, "recall": 0.7778, "f1": 0.7, "tp": 7, "pred": 11, "gold": 9},
+      "attributes": {"precision": 0.125, "recall": 0.2222, "f1": 0.16, "tp": 2, "pred": 16, "gold": 9},
+      "relations": {"precision": 0.2, "recall": 0.1667, "f1": 0.1818, "tp": 2, "pred": 10, "gold": 12}
+    },
+    {
+      "SPICE": 0.5101,
+      "objects": {"precision": 0.75, "recall": 1.0, "f1": 0.8571, "tp": 9, "pred": 12, "gold": 9},
+      "attributes": {"precision": 0.4375, "recall": 0.5385, "f1": 0.4828, "tp": 7, "pred": 16, "gold": 13},
+      "relations": {"precision": 0.1818, "recall": 0.2, "f1": 0.1905, "tp": 2, "pred": 11, "gold": 10}
+    },
+    {
+      "SPICE": 0.2435,
+      "objects": {"precision": 0.3846, "recall": 0.5556, "f1": 0.4545, "tp": 5, "pred": 13, "gold": 9},
+      "attributes": {"precision": 0.3077, "recall": 0.25, "f1": 0.2759, "tp": 4, "pred": 13, "gold": 16},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 7, "gold": 11}
+    },
+    {
+      "SPICE": 0.4598,
+      "objects": {"precision": 0.5455, "recall": 0.75, "f1": 0.6316, "tp": 6, "pred": 11, "gold": 8},
+      "attributes": {"precision": 0.5172, "recall": 0.625, "f1": 0.566, "tp": 15, "pred": 29, "gold": 24},
+      "relations": {"precision": 0.2, "recall": 0.1667, "f1": 0.1818, "tp": 2, "pred": 10, "gold": 12}
+    },
+    {
+      "SPICE": 0.3754,
+      "objects": {"precision": 0.5385, "recall": 0.6364, "f1": 0.5833, "tp": 7, "pred": 13, "gold": 11},
+      "attributes": {"precision": 0.2609, "recall": 0.5, "f1": 0.3429, "tp": 6, "pred": 23, "gold": 12},
+      "relations": {"precision": 0.2222, "recall": 0.1818, "f1": 0.2, "tp": 2, "pred": 9, "gold": 11}
+    },
+    {
+      "SPICE": 0.2296,
+      "objects": {"precision": 0.3333, "recall": 0.4444, "f1": 0.381, "tp": 4, "pred": 12, "gold": 9},
+      "attributes": {"precision": 0.3077, "recall": 0.3077, "f1": 0.3077, "tp": 4, "pred": 13, "gold": 13},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 7, "gold": 12}
+    },
+    {
+      "SPICE": 0.5821,
+      "objects": {"precision": 0.7778, "recall": 1.0, "f1": 0.875, "tp": 7, "pred": 9, "gold": 7},
+      "attributes": {"precision": 0.5882, "recall": 0.5556, "f1": 0.5714, "tp": 10, "pred": 17, "gold": 18},
+      "relations": {"precision": 0.375, "recall": 0.25, "f1": 0.3, "tp": 3, "pred": 8, "gold": 12}
+    },
+    {
+      "SPICE": 0.2441,
+      "objects": {"precision": 0.3846, "recall": 0.5556, "f1": 0.4545, "tp": 5, "pred": 13, "gold": 9},
+      "attributes": {"precision": 0.2273, "recall": 0.3571, "f1": 0.2778, "tp": 5, "pred": 22, "gold": 14},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 9, "gold": 8}
+    },
+    {
+      "SPICE": 0.3704,
+      "objects": {"precision": 0.5, "recall": 0.625, "f1": 0.5556, "tp": 5, "pred": 10, "gold": 8},
+      "attributes": {"precision": 0.3529, "recall": 0.6, "f1": 0.4444, "tp": 6, "pred": 17, "gold": 10},
+      "relations": {"precision": 0.1111, "recall": 0.1111, "f1": 0.1111, "tp": 1, "pred": 9, "gold": 9}
+    },
+    {
+      "SPICE": 0.4444,
+      "objects": {"precision": 0.75, "recall": 0.9, "f1": 0.8182, "tp": 9, "pred": 12, "gold": 10},
+      "attributes": {"precision": 0.2222, "recall": 0.2667, "f1": 0.2424, "tp": 4, "pred": 18, "gold": 15},
+      "relations": {"precision": 0.2727, "recall": 0.2727, "f1": 0.2727, "tp": 3, "pred": 11, "gold": 11}
+    },
+    {
+      "SPICE": 0.5573,
+      "objects": {"precision": 0.6667, "recall": 1.0, "f1": 0.8, "tp": 8, "pred": 12, "gold": 8},
+      "attributes": {"precision": 0.5, "recall": 0.7857, "f1": 0.6111, "tp": 11, "pred": 22, "gold": 14},
+      "relations": {"precision": 0.3, "recall": 0.2308, "f1": 0.2609, "tp": 3, "pred": 10, "gold": 13}
+    },
+    {
+      "SPICE": 0.3198,
+      "objects": {"precision": 0.4545, "recall": 0.5, "f1": 0.4762, "tp": 5, "pred": 11, "gold": 10},
+      "attributes": {"precision": 0.4118, "recall": 0.3889, "f1": 0.4, "tp": 7, "pred": 17, "gold": 18},
+      "relations": {"precision": 0.1111, "recall": 0.0667, "f1": 0.0833, "tp": 1, "pred": 9, "gold": 15}
+    },
+    {
+      "SPICE": 0.4047,
+      "objects": {"precision": 0.6154, "recall": 0.7273, "f1": 0.6667, "tp": 8, "pred": 13, "gold": 11},
+      "attributes": {"precision": 0.4211, "recall": 0.5333, "f1": 0.4706, "tp": 8, "pred": 19, "gold": 15},
+      "relations": {"precision": 0.0833, "recall": 0.0714, "f1": 0.0769, "tp": 1, "pred": 12, "gold": 14}
+    },
+    {
+      "SPICE": 0.3653,
+      "objects": {"precision": 0.5385, "recall": 0.7778, "f1": 0.6364, "tp": 7, "pred": 13, "gold": 9},
+      "attributes": {"precision": 0.2667, "recall": 0.3077, "f1": 0.2857, "tp": 4, "pred": 15, "gold": 13},
+      "relations": {"precision": 0.1818, "recall": 0.1667, "f1": 0.1739, "tp": 2, "pred": 11, "gold": 12}
+    },
+    {
+      "SPICE": 0.3801,
+      "objects": {"precision": 0.5455, "recall": 0.6, "f1": 0.5714, "tp": 6, "pred": 11, "gold": 10},
+      "attributes": {"precision": 0.2917, "recall": 0.5385, "f1": 0.3784, "tp": 7, "pred": 24, "gold": 13},
+      "relations": {"precision": 0.2857, "recall": 0.1429, "f1": 0.1905, "tp": 2, "pred": 7, "gold": 14}
+    },
+    {
+      "SPICE": 0.2511,
+      "objects": {"precision": 0.4444, "recall": 0.8, "f1": 0.5714, "tp": 4, "pred": 9, "gold": 5},
+      "attributes": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 5, "gold": 6},
+      "relations": {"precision": 0.1429, "recall": 0.25, "f1": 0.1818, "tp": 1, "pred": 7, "gold": 4}
+    },
+    {
+      "SPICE": 0.5449,
+      "objects": {"precision": 0.75, "recall": 1.0, "f1": 0.8571, "tp": 3, "pred": 4, "gold": 3},
+      "attributes": {"precision": 0.2, "recall": 1.0, "f1": 0.3333, "tp": 1, "pred": 5, "gold": 1},
+      "relations": {"precision": 0.6667, "recall": 0.3333, "f1": 0.4444, "tp": 2, "pred": 3, "gold": 6}
+    },
+    {
+      "SPICE": 0.1273,
+      "objects": {"precision": 0.25, "recall": 0.1429, "f1": 0.1818, "tp": 1, "pred": 4, "gold": 7},
+      "attributes": {"precision": 0.25, "recall": 0.1667, "f1": 0.2, "tp": 1, "pred": 4, "gold": 6},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 0, "gold": 6}
+    },
+    {
+      "SPICE": 0.3523,
+      "objects": {"precision": 0.875, "recall": 0.875, "f1": 0.875, "tp": 7, "pred": 8, "gold": 8},
+      "attributes": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 7, "gold": 4},
+      "relations": {"precision": 0.2, "recall": 0.1667, "f1": 0.1818, "tp": 1, "pred": 5, "gold": 6}
+    },
+    {
+      "SPICE": 0.2413,
+      "objects": {"precision": 0.5, "recall": 0.5714, "f1": 0.5333, "tp": 4, "pred": 8, "gold": 7},
+      "attributes": {"precision": 0.125, "recall": 0.4, "f1": 0.1905, "tp": 2, "pred": 16, "gold": 5},
+      "relations": {"precision": 0.0, "recall": 0.0, "f1": 0.0, "tp": 0, "pred": 5, "gold": 6}
+    }
+  ],
+  "mode": "synonym",
+  "by_frame": false,
+  "micro_breakdown": {"objects": 0.6939, "attributes": 0.4146, "relations": 0.2681}
+}

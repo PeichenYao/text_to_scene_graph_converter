@@ -1,0 +1,7 @@
+pandas==2.3.3
+numpy==2.3.4
+spacy==3.8.7
+openai==2.6.1
+nltk==3.9.2
+
+
