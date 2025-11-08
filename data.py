@@ -11,12 +11,12 @@ from tqdm import tqdm
 from config import OPENAI_API_KEY, MODEL_NAME, TEXTS_FILE, SCENE_GRAPHS_FILE, USE_PROXY, PROXY_URL
 
 
-# 代理，不需要代理请勿运行
+# Proxy settings; enable only if a proxy is required
 if USE_PROXY:
     os.environ["HTTP_PROXY"] = PROXY_URL
     os.environ["HTTPS_PROXY"] = PROXY_URL
 
-# 定期缓存
+# Periodic cache
 FLUSH_EVERY = 50
 
 SYSTEM_PROMPT = """You are a smart intelligent assistant who can help me generate short story (2-4 sentences) and its corresponding scene graph.
@@ -164,9 +164,9 @@ class SceneGraphGenerator:
 
     def generate_data(self):
         """Generate and enrich scene graph data."""
-        for i in tqdm(range(self.num_data)):  # 根据命令行参数控制生成数据的数量
+        for i in tqdm(range(self.num_data)):  # Control the number of generated records via command-line arguments
             try:
-                # 调用 OpenAI API 获取数据
+                # Call the OpenAI API to fetch data
                 response = self.client.chat.completions.create(
                     model=MODEL_NAME,
                     messages=[
@@ -177,13 +177,13 @@ class SceneGraphGenerator:
                 )
                 output = response.choices[0].message.content.strip()
 
-                # 处理生成的文本和图形
+                # Process generated text and scene graphs
                 if "Story:" in output and "Scene Graph:" in output:
                     parts = output.split("Scene Graph:")
                     text = parts[0].replace("Story:", "").strip()
                     text_hash = self._hash_text(text)
 
-                    # 检查文本是否重复
+                    # Check for duplicate text
                     if text_hash in self.existing_text_hashes:
                         continue
 
@@ -197,19 +197,19 @@ class SceneGraphGenerator:
                     if "graph_not_list" in errs or "edge_bad_shape" in errs:
                         continue
 
-                    # 更新数据
+                    # Update data
                     self.texts_data.append({"text": text})
                     self.graphs_data.append(fixed_graph)
                     self.existing_text_hashes.add(text_hash)
 
-                    # 定期缓存
+                    # Periodically write data to cache
                     if len(self.existing_text_hashes) % self.flush_every == 0:
                         self._save_data()
 
             except Exception:
                 continue
 
-        self._save_data()  # 保存最终数据
+        self._save_data()  # Save final data
 
 
 def parse_args():
