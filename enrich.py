@@ -7,7 +7,7 @@ from openai import OpenAI
 from config import OPENAI_API_KEY, USE_PROXY, PROXY_URL
 
 
-# 代理，不需要代理请勿运行
+# Proxy settings; enable only if a proxy is required
 if USE_PROXY:
     os.environ["HTTP_PROXY"] = PROXY_URL
     os.environ["HTTPS_PROXY"] = PROXY_URL
