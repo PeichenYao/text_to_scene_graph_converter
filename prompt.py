@@ -7,7 +7,7 @@ from openai import OpenAI
 from config import OPENAI_API_KEY, USE_PROXY, PROXY_URL
 
 
-# 代理，不需要代理请勿运行
+# Proxy settings; enable only if a proxy is required
 if USE_PROXY:
     os.environ["HTTP_PROXY"] = PROXY_URL
     os.environ["HTTPS_PROXY"] = PROXY_URL
@@ -48,10 +48,10 @@ def _strip_code_fences(s: str) -> str:
 
 def _ensure_prefix_suffix(s: str) -> str:
     s = _norm_spaces(_strip_code_fences(s)).rstrip(",.")
-    # 前缀
+    # Prefix
     if not s.lower().startswith(PREFIX):
         s = f"{PREFIX} {s}"
-    # 后缀
+    # Suffix
     if not s.lower().endswith(STYLE_SUFFIX):
         s = f"{s}, {STYLE_SUFFIX}"
     return _norm_spaces(s)
