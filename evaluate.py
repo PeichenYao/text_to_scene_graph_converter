@@ -44,7 +44,7 @@ class SceneGraphEvaluator:
                 nodes = fr.get("nodes") or []
                 edges = fr.get("edges") or []
 
-                # 去编号
+                # Remove numbering
                 id_map = {}
                 merged = {}
                 for nd in nodes:
