@@ -1340,8 +1340,6 @@ def _sgpost_backfill_last_object(frames, rules):
                     changed += 1
 
 # The object is missing/there is no object. Use other nodes in this frame to complete it.
-
-
 def _sgpost_repair_pp_edges_in_frame(frame: dict, rules) -> None:
     ids = [n.get("id")
            for n in (frame.get("nodes") or []) if isinstance(n, dict)]
@@ -1355,8 +1353,6 @@ def _sgpost_repair_pp_edges_in_frame(frame: dict, rules) -> None:
                 e[2] = cand[0]
 
 # The "cross-frame leaving" action lacks a subject, so the previous location is filled in as the subject.
-
-
 def _sgpost_backfill_from_location(frames: list, rules) -> None:
     last_loc = {}
     for fr in frames:
@@ -1377,8 +1373,6 @@ def _sgpost_backfill_from_location(frames: list, rules) -> None:
                 last_loc[s] = o
 
 # The morphological standardization of the verb in predicates
-
-
 def _sg_stem_verb_token(w: str) -> str:
     w = (w or "").strip().lower()
     if not w:
@@ -1451,14 +1445,10 @@ def _sgpost_normalize_edges(scene_graph: list, rules=None):
     return scene_graph
 
 # Dynamic attribute determination
-
-
 def _sg_is_dynamic_attr(attr: str, rules) -> bool:
     return bool(rules["_compiled"]["dynamic_attribute_regex"].match(_sg_norm(attr)))
 
 # Static attribute inheritance across frames
-
-
 def _sgpost_propagate_static_attrs(frames: list, rules) -> None:
     mem = {}
     for fr in frames:
@@ -1474,8 +1464,6 @@ def _sgpost_propagate_static_attrs(frames: list, rules) -> None:
                         if not _sg_is_dynamic_attr(a, rules)}
 
 # Extract a single frame state
-
-
 def _sg_extract_frame_state(frame, rules):
     # location: extract locative border o from (s, p, o) 
     loc = {}
@@ -1486,7 +1474,7 @@ def _sg_extract_frame_state(frame, rules):
         if o != "__null__" and _sg_is_locative(p, rules):
             loc[s] = o
 
-    # actions: The dynamic attributes in the node attributes (such as "ing", "past participle", etc.) are used for mutual exclusion checks.
+    # Actions: The dynamic attributes in the node attributes (such as "ing", "past participle", etc.) are used for mutual exclusion checks.
     actions = {}
     for n in (frame.get("nodes") or []):
         if not isinstance(n, dict):
@@ -1500,8 +1488,6 @@ def _sg_extract_frame_state(frame, rules):
     return {"location": loc, "actions": actions}
 
 # Consistency Audit
-
-
 def _sg_audit_consistency(frames, rules, tag="audit"):
 
     os.makedirs("artifacts", exist_ok=True)
@@ -1583,7 +1569,7 @@ def _sg_audit_consistency(frames, rules, tag="audit"):
             last_loc[s] = v
         prev_edges = fr.get("edges") or []
 
-    # input
+    # Input
     with open(os.path.join("artifacts", "consistency_violations_%s.csv" % tag), "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=[
                            "frame_index", "time", "subject", "violation", "details", "prev_state", "curr_state"])
@@ -1594,8 +1580,6 @@ def _sg_audit_consistency(frames, rules, tag="audit"):
         json.dump(traces, f, ensure_ascii=False, indent=2)
 
 # Dynamic attribute
-
-
 def _sgpost_decay_dynamic_attrs(frames: list, rules, ttl: int = 1) -> None:
     dyn = {}
     mutex_groups = [tuple(g) for g in (rules.get("mutex_groups") or [])]
@@ -1732,4 +1716,5 @@ def build_scene_graph(text, debug=False):
     out_frames = _sgpost_normalize_edges(out_frames, rules=SG_RULES)
 
     return out_frames, dbg
+
 
