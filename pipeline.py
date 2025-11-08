@@ -436,7 +436,7 @@ def postproc_resolve_and_disambiguate(doc, triples):
 
 def extract_predicates_with_pos(doc):
     """
-    Extract the relationship sentence by sentence.
+    Extract the relation sentence by sentence.
     """
     triples = []
 
@@ -1048,9 +1048,7 @@ def _propagate_static_attributes_inplace(out_frames):
             if statics:
                 mem.setdefault(nd["id"], set()).update(statics)
 
-# The positional relationship of propagation between frames
-
-
+# The positional relations of propagation between frames
 def _propagate_location_edges(out_frames):
     last_loc = {}
     for fr in out_frames:
@@ -1073,7 +1071,7 @@ def _assign_to_frames(frames, alias2id, triples, attrs, counts):
         node_count = {}
         edges, seen_e = [], set()
 
-        # relationship
+        # relation
         for t in triples:
             if L <= t["head"] <= R:
                 s = norm(t["s"])
@@ -1734,3 +1732,4 @@ def build_scene_graph(text, debug=False):
     out_frames = _sgpost_normalize_edges(out_frames, rules=SG_RULES)
 
     return out_frames, dbg
+
